@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    android:orientation="vertical"
+    tools:context=".SplashScreen">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+  android:layout_marginTop="40dp"
+            app:srcCompat="@drawable/gazallogomain"
+            tools:layout_editor_absoluteX="55dp"
+            tools:layout_editor_absoluteY="130dp" />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_extrabold"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="GHAZAL"
+            android:textColor="@color/black"
+            android:letterSpacing="0.5"
+            android:textSize="40sp" />
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_extrabold"
+        android:gravity="center"
+        android:padding="10dp"
+        android:text="ગુજરાતી"
+        android:textColor="@color/black"
+        android:letterSpacing="0.5"
+        android:textSize="40sp" />
+</LinearLayout>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/poppins_extrabold"
+            android:gravity="center"
+            android:layout_marginTop="10dp"
+            android:padding="20dp"
+            android:text="ગુજરાતી ભાષાની પ્રથમ ગઝલ છંદ તપાસતી એપ્લિકેશન"
+            android:textColor="@color/black"
+
+            android:textSize="30sp" />
+    </LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>

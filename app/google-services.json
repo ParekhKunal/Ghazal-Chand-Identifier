@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1072284222255",
+    "project_id": "ghazal-4a328",
+    "storage_bucket": "ghazal-4a328.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1072284222255:android:d4d6708a653312b01997da",
+        "android_client_info": {
+          "package_name": "com.example.ghazal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1072284222255-1cfp4lf48e8jvtko7t4ipv8q7f7qot35.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBDXMUBJpP4H_8EvE6tbZN8RnTpb1QrMUs"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1072284222255-1cfp4lf48e8jvtko7t4ipv8q7f7qot35.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
